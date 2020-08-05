@@ -13,13 +13,13 @@ function menus(){
         nav.classList.remove('nav2');
         nav.className = ('nav1');
         nav.style.transition = '1s';
-        menu.style.top = '80px';
+        menu.style.top = '150px';
         abrir.style.color = '#fff';
     }else{
         nav.classList.remove('nav1');
         nav.className = ('nav2');
         nav.style.transition = '1s';
-        menu.style.top = '100px';
+        menu.style.top = '150px';
         abrir.style.color = '#000';
     }
 }
